@@ -1,0 +1,50 @@
+table.nice {
+  margin:         0;
+  width:				  100%;
+  border-collapse:collapse;
+}
+table.nice caption {
+  font-size:      2em;
+  border-bottom:  2px solid #404040;
+  text-align:     left;
+}
+table.nice th {
+  background:			#F9F9F9;
+  font-weight:		bold;
+  text-align:     left;
+}
+table.nice td,
+table.nice th {
+  padding:			  10px;
+  vertical-align:	top;
+  border:				  1px solid #CCC;
+  border-collapse:collapse;
+  white-space:    nowrap;
+}
+table.nice .main {
+  width:          100%;
+}
+table.nice .wrap {	
+  white-space:    normal;
+}
+table.nice .nr {
+  text-align: 		right;
+}
+
+table.nice thead th {
+  border-bottom:	2px solid #404040;
+  vertical-align:	bottom;
+  white-space: 		nowrap;
+}
+table.nice tbody th {
+  width:          1%;
+  white-space:    nowrap;
+}
+
+table.nice tfoot td {
+  border-top:		  2px solid #000;
+  border-right:		0;
+  border-bottom:  0;
+  border-left:		0;
+  font-weight:    bold;
+}
