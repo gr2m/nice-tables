@@ -1,47 +1,46 @@
-table.nice {
+/*some basic design treatment for tables*/
+table {
   margin:         0;
   width:				  100%;
   border-collapse:collapse;
 }
-table.nice caption {
+table caption {
   font-size:      2em;
   border-bottom:  2px solid #404040;
   text-align:     left;
+  background:     #FFF;
 }
-table.nice th {
+table th {
   background:			#F9F9F9;
   font-weight:		bold;
   text-align:     left;
 }
-table.nice td,
-table.nice th {
+table td,
+table th {
   padding:			  10px;
   vertical-align:	top;
   border:				  1px solid #CCC;
   border-collapse:collapse;
-  white-space:    nowrap;
 }
-table.nice .main {
+table .main {
   width:          100%;
 }
-table.nice .wrap {	
+table .wrap {	
   white-space:    normal;
 }
-table.nice .nr {
+table .nr {
   text-align: 		right;
 }
 
-table.nice thead th {
+table thead th {
   border-bottom:	2px solid #404040;
   vertical-align:	bottom;
-  white-space: 		nowrap;
 }
-table.nice tbody th {
-  width:          1%;
-  white-space:    nowrap;
+table tbody th {
+  width:          200px;
 }
 
-table.nice tfoot td {
+table tfoot td {
   border-top:		  2px solid #000;
   border-right:		0;
   border-bottom:  0;
