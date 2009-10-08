@@ -6,6 +6,7 @@ table {
 }
 table caption {
   font-size:      2em;
+  line-height:    1.4em;
   border-bottom:  2px solid #404040;
   text-align:     left;
   background:     #FFF;
